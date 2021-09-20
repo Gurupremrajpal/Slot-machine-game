@@ -32,13 +32,12 @@ function choosePic1() {
     var randomNum = Math.floor(Math.random() * images.length);
 
     document.querySelector(".default_img").src = images[randomNum];
-    
     choosePic2();
-  }
   
-  $(".message").append("You lose! Restart the game.");
-  document.querySelector(".imgbtn").disabled = true;
-  document.querySelector(".restartbtn").disabled =false;
+    $(".message").append("You lose! Restart the game.");
+    document.querySelector(".imgbtn").disabled = true;
+    document.querySelector(".restartbtn").disabled =false;
+  }
 }
 
 function choosePic2(){
@@ -57,6 +56,3 @@ function choosePic3(){
 function showmessage(){
   $(".message").append("Congratulations ");
 }
-
-
-
