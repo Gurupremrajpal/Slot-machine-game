@@ -1,0 +1,96 @@
+body{
+  text-align: center;
+  padding: 0;
+  background-color: black;
+  cursor: auto;
+  margin: 0;
+}
+
+label{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 3px;
+}
+
+img{
+  width: 50%;
+}
+
+
+table,tr{
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 25px 10px #FAA916;
+}
+
+footer{
+    text-align: center;
+    color: greenyellow;
+    width:150;  
+    position: absolute;
+    font-family: "Rancho", cursive;
+}
+
+.footerimg{
+  float: left;
+  width: 9%;
+}
+
+.headertext{
+  font-family: monospace;
+  width: 100%;
+  text-transform: uppercase;
+  animation: multicolor 7s linear infinite;
+  text-shadow: -4px 3px 0 #fff;
+  font-size: 50px
+}
+
+.imgbtn{
+  margin-right: 16px;
+}
+
+.imgbtn:hover{
+  transform: translateY(-0.25em);
+}
+
+.restartbtn:hover{
+  transform: translateY(-0.25em);
+}
+
+@keyframes multicolor{
+  0%{
+    color: rgb(70, 70, 245);
+  }
+  10%{
+    color: rgb(245, 219, 70);
+  }
+  20%{
+    color: rgb(70, 245, 79);
+  }
+  30%{
+    color: rgb(245, 70, 187);
+  }
+  40%{
+    color: rgb(245, 70, 70);
+  }
+  50%{
+    color: rgb(245, 90, 70);
+  }
+  60%{
+    color: rgb(245, 70, 236);
+  }
+  70%{
+    color: rgb(66, 172, 158);
+  }
+  80%{
+    color: rgb(213, 245, 70);
+  }
+  90%{
+    color: rgb(90, 245, 70);
+  }
+  100%{
+    color: rgb(153, 27, 211);
+  }
+}
