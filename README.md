@@ -1,6 +1,6 @@
 # Slot-machine-game
 <br>
-<img src="slotmachine.gif"> </img>
+<img src="slot.gif"> </img>
 <br>
 <a href="https://gurupremrajpal.github.io/Slot-machine-game/Slot-machine-game/index.html"> Website </a>
 <br>
