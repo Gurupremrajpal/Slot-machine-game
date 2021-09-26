@@ -36,6 +36,7 @@ footer{
 .footerimg{
   float: left;
   width: 9%;
+  border-radius: 1px;
 }
 
 .headertext{
@@ -53,10 +54,22 @@ footer{
 
 .imgbtn:hover{
   transform: translateY(-0.25em);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
 }
 
 .restartbtn:hover{
   transform: translateY(-0.25em);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.changebtn:hover{
+  transform: translateY(-0.25em);
+  background-color: rgb(229, 202, 46);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.restartbtn{
+  margin-right: 16px;
 }
 
 @keyframes multicolor{
